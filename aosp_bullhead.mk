@@ -31,6 +31,8 @@ PRODUCT_MODEL := Nexus 5X
 PRODUCT_MANUFACTURER := LGE
 PRODUCT_RESTRICT_VENDOR_FILES := true
 
+PRODUCT_COPY_FILES += device/lge/bullhead/backup.xml:system/etc/sysconfig/backup.xml
+
 $(call inherit-product, device/lge/bullhead/device.mk)
 $(call inherit-product-if-exists, vendor/lge/bullhead/device-vendor.mk)
 
