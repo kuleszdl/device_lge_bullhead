@@ -146,4 +146,6 @@ TARGET_PER_MGR_ENABLED := true
 
 USE_CLANG_PLATFORM_BUILD := true
 
+BOARD_HAS_ART_VERIFIER_ERRORS := true
+
 -include vendor/lge/bullhead/BoardConfigVendor.mk
