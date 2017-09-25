@@ -7,6 +7,7 @@ allow wcnss_service self:netlink_socket rw_socket_perms_no_ioctl;
 allow wcnss_service self:socket create_socket_perms;
 allowxperm wcnss_service self:socket ioctl msm_sock_ipc_ioctls;
 allow wcnss_service proc_net:file w_file_perms;
+allow wcnss_service proc_net_devroute:file w_file_perms;
 allow wcnss_service self:netlink_socket create_socket_perms_no_ioctl;
 allow wcnss_service smem_log_device:chr_file rw_file_perms;
 allow wcnss_service self:capability { setuid net_admin setgid };
