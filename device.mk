@@ -573,6 +573,9 @@ PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.product.first_api_level=23
 
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.control_privapp_permission=log
+
 # In userdebug, add minidebug info the the boot image and the system server to support
 # diagnosing native crashes.
 ifneq (,$(filter userdebug, $(TARGET_BUILD_VARIANT)))
