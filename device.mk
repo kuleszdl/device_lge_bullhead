@@ -579,7 +579,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.product.first_api_level=23
 
 PRODUCT_PROPERTY_OVERRIDES += \
-    ro.control_privapp_permission=log
+    ro.control_privapp_permission=enforce
 
 # In userdebug, add minidebug info the the boot image and the system server to support
 # diagnosing native crashes.
