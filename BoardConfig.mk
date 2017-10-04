@@ -171,5 +171,3 @@ ifeq ($(TARGET_PRODUCT),bullhead_svelte)
 BOARD_KERNEL_CMDLINE += mem=1024M
 MALLOC_SVELTE := true
 endif
-
-BOARD_HAS_ART_VERIFIER_ERRORS := true
